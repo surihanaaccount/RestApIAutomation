@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Rest Api RestAssured Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.report.ReportGeneration"/>
+  </listeners>
+  <test thread-count="5" name="Rest Api Test Cases(failed)">
+    <classes>
+      <class name="com.restAssured.RestApi_Requests">
+        <methods>
+          <include name="createEmployee"/>
+        </methods>
+      </class> <!-- com.restAssured.RestApi_Requests -->
+    </classes>
+  </test> <!-- Rest Api Test Cases(failed) -->
+</suite> <!-- Failed suite [Rest Api RestAssured Automation Test Suite] -->

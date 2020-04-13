@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rest Api RestAssured Automation Test Suite">
+<test name="Rest Api Test Cases">
+<classes>
+			<class name="com.restAssured.RestApi_Serialize_Requests"></class>
+</classes>
+	</test>
+</suite>
